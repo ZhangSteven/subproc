@@ -6,9 +6,9 @@ REM *************************************************
 REM *************************************************
 REM ***    	SFTP Processing 		*****
 REM *************************************************
-SET JOBSCRIPTPATH="C:\Users\steven.zhang\AppData\Local\Programs\Git\git\subproc"
+SET JOBSCRIPTPATH="C:\Program Files\Git\git\subproc"
 SET WINSCPPATH="C:\Program Files (x86)\WinSCP"
-SET DATASOURCEPATH="C:\Users\steven.zhang\AppData\Local\Programs\Git\git\subproc\upload"
+SET DATASOURCEPATH="C:\Program Files\Git\git\subproc\upload"
 
 cd %DATASOURCEPATH%
 

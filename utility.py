@@ -71,14 +71,12 @@ if not 'logger' in globals():
 
 
 
-def get_input_directory():
-	"""
-	Read directory from the config object and return it.
-	"""
+def get_winscp_directory():
 	global config
-	directory = config['directory']['input']
-	if directory.strip() == '':
-		directory = get_current_path()
+	return config['directory']['winscp']
 
-	return directory
 
+
+def get_winscp_log_directory():
+	global config
+	return config['directory']['winscp_log']

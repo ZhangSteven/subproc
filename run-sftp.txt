@@ -1,4 +1,4 @@
-open sftp://svc_sftp:CEcY26@sftp.clamc.com.hk/
-cd reconciliation
-put %DATASOURCEPATH%\*.*
+open sftp://demo:password@test.rebex.net/
+cd pub/example
+get ConsoleClient.png
 exit
