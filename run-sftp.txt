@@ -1,0 +1,4 @@
+open sftp://svc_sftp:CEcY26@sftp.clamc.com.hk/
+cd reconciliation
+put %DATASOURCEPATH%\*.*
+exit

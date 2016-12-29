@@ -1,0 +1,3 @@
+﻿甲乙丙丁
+
+Using utf8 encoding
