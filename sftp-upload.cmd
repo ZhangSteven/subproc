@@ -13,4 +13,4 @@ SET DATASOURCEPATH="C:\Users\steven.zhang\AppData\Local\Programs\Git\git\subproc
 cd %DATASOURCEPATH%
 
 REM *****  Uploading all files to SFTP ******
-%WINSCPPATH%\winscp.com /script=%JOBSCRIPTPATH%\run-sftp.txt /log="%JOBSCRIPTPATH%\upload.log"
+%WINSCPPATH%\winscp.com /script=%JOBSCRIPTPATH%\run-sftp.txt /log=%JOBSCRIPTPATH%\upload.log
