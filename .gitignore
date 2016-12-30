@@ -1,6 +1,8 @@
 # ignore the python class files (.pyc)
 __pycache__/
 
-# ignore the log file
+# ignore the sftp log file
 upload.log
-subproc.log
+
+# ignore the python log
+subproc.log 
