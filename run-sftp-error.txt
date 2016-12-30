@@ -1,0 +1,6 @@
+open sftp://demo:password@test.rebex.net/
+cd pub/example
+get ConsoleClient.png
+get non_existing_file.xxx
+get mail-editor.png
+exit

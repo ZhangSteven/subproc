@@ -1,0 +1,5 @@
+open sftp://demo:password@test.rebex.net/
+cd pub/example
+get ConsoleClient.png
+get mail-send-winforms.png
+exit
