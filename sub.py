@@ -101,7 +101,8 @@ if __name__ == '__main__':
 		# get_file()
 		get_file_timeout()
 		# get_file_error()
-		pass
+		
+		print('working OK')
 	except TimeoutExpired as e:
 		print('process timeout within {0} seconds'.format(e.timeout))
 	except CalledProcessError as e:
@@ -111,4 +112,4 @@ if __name__ == '__main__':
 	finally:
 		print(read_log(join(get_winscp_log_directory(), 'winscp.log')))
 
-	print('working OK')
+

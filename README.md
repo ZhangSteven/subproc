@@ -1,6 +1,6 @@
 # subprocess
 
-Test how python calls a subprocess, i.e., a windows bat file or invoke a windows command.
+Test how python calls a subprocess, i.e., invoke a windows application from within a python program.
 
-We will use the sftp bat file as an example.
+Here we use sftp as an example.
 
